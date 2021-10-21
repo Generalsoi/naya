@@ -1,0 +1,41 @@
+.roadmap{
+    background: #261E35;
+    color: #fff;
+    padding: 3% 7%;
+}
+
+.roadmap h4{
+    font-size: 2.375rem;
+    font-weight: 500;
+    font-family: Helvetica;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.roadmap-p{
+    font-size: 1.313rem;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    text-align: center;
+}
+
+.roadmap-btn{
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .roadmap{
+        padding: 7% 4%;
+    }
+
+    .roadmap-p{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .roadmap h4{
+        font-size: 2rem;
+    }
+}

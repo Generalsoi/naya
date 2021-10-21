@@ -16,3 +16,18 @@
     line-height: 1.938rem;
     font-size: 1.313rem;
 }
+
+@media screen and (max-width: 600px) {
+    .about-section{
+        padding: 10% 4%;
+    }
+
+    .about-section h3{
+        font-size: 2rem;
+    }
+
+    .about-section p{
+        font-size: 0.9rem;
+        text-align: left;
+    }
+}

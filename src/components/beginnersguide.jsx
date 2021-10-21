@@ -13,7 +13,7 @@ const BeginnersGuide = () => {
         Here are a few ways beginners who want to get the NAYA token can do so
         and store safely.
       </p>
-      <div className="d-flex justify-content-between align-items-center beginnersGuideContent">
+      <div className="d-lg-flex justify-content-between align-items-center beginnersGuideContent">
         <div className="beginnersGuideContentOne">
           <DownloadInfo
             downloadTitle="Download the Trust Wallet App"
@@ -25,7 +25,7 @@ const BeginnersGuide = () => {
         </div>
       </div>
 
-      <div className="d-flex justify-content-between align-items-center beginnersGuideContent">
+      <div className="d-lg-flex justify-content-between align-items-center beginnersGuideContent">
         <div>
           <DownloadCard cardImg={MetaMask} />
         </div>

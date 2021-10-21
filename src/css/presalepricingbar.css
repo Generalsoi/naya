@@ -1,0 +1,45 @@
+.pre-sale-pricing-bar{
+    background: #1D1A27;
+    height: 19.341rem;
+    border-radius: 10px;
+    padding: 4rem 2rem;
+    margin-top: 5rem;
+    box-shadow: 10px 10px 15px #CE4DA4;
+    text-align: center;
+    font-family: "Poppins", serif;
+}
+
+.pre-sale-pricing-bar h4{
+    font-size: 2rem;
+}
+
+.pre-sale-pricing-bar h5{
+    font-size: 2.813rem;
+}
+
+.pre-sale-pricing-bar h6{
+    font-size: 2rem;
+    background: linear-gradient (180deg, #CE4DA4 0%, #7353E5 100%)
+}
+
+.timer{
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .pre-sale-pricing-bar{
+        width: 100%; 
+        height: 20rem;
+        padding: 5% 2%;
+        margin-top: 5rem;
+    }
+
+    .pre-sale-pricing-bar h4{
+        font-size: 1.2rem;
+    }
+
+    .pre-sale-pricing-bar h5, .pre-sale-pricing-bar h6{
+        font-size: 0.9rem;
+    }
+}

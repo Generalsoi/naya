@@ -1,0 +1,26 @@
+.tokendistribution{
+    background: rgba(80, 73, 106, 0.2);
+    width: 18rem;
+    height: 3.688rem;
+    border-radius: 5px;
+    position: relative;
+    margin: 2rem auto;
+}
+
+.tokendistribution .card-body p{
+    font-size: 1rem;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    opacity: 50%;
+    text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+    .tokendistribution{
+        width: 100%;
+    }
+
+    .tokendistribution .card-body p{
+        font-size: 0.9rem;
+    }
+}
