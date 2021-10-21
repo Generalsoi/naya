@@ -53,4 +53,16 @@
     .section-one .sectionOneFirstP{
         font-size: 0.5rem;
     }
+
+    .section-one-image-one{
+        display: none;
+    }
+
+    .section-one-image-two{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 20%;
+        display: transparent;
+    }
 }

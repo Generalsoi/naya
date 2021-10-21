@@ -29,7 +29,7 @@ const Introduction = () => {
         <p className="sectionOneSecondP">economy and charities.</p>
         <Button content="Buy NAYA" buttonStyles={IntroBtnStyles} />
       </div>
-      <img src={ImageOne} />
+      <img src={ImageOne} className="section-one-image-one" />
       <img className="section-one-image-two" src={ImageTwo} />
     </div>
   );
