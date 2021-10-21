@@ -1,0 +1,18 @@
+.about-section{
+    padding: 5% 7%;
+    text-align: center;
+    background: #261E35;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.about-section h3{
+    font-size: 2.375rem;
+    margin-bottom: 2rem;
+}
+
+.about-section p{
+    line-height: 1.938rem;
+    font-size: 1.313rem;
+}

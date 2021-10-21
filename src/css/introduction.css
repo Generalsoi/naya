@@ -1,0 +1,41 @@
+.section-one{
+    position: relative;
+    padding: 0 0 0 7%;
+    background: linear-gradient(78.35deg, rgba(243, 156, 156, 0.9) 14.23%, #2A0FD3 121.44%);
+}
+
+.section-one p{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.sectionOneFirstP{
+    font-size: 0.563rem;
+}
+
+.sectionOneSecondP{
+    font-size: 1rem;
+    margin: 0.1rem;
+}
+
+.section-one h4{
+    font-size: 4.188rem;
+    font-family: Helvetica;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.section-one-first-h4{
+    margin: 0.2rem 0 0.5rem;
+}
+
+.section-one-second-h4{
+    margin: 0 0 1rem;
+}
+
+.section-one-image-two{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
