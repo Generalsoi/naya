@@ -1,0 +1,41 @@
+.featurecard{
+    width: 22.9rem;
+    height: 22.75rem;
+    background: #1D1A27;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.featurecard .card-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: Helvetica;
+    margin: 15px 0;
+    color: #fff;
+}
+
+.featurecard .card-text{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 600px) {
+    .featurecard{
+        width: 100%;
+        height: 18rem;
+    }
+
+    .featurecard .card-title{
+        font-size: 1.4rem;
+    }
+
+    .featurecard .card-text{
+        font-size: 0.9rem;
+    }
+
+    .featurecard .card-body img{
+        width: 20%;
+    }
+}

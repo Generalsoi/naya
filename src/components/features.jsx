@@ -8,14 +8,6 @@ import CreatorPayment from "../images/creatorpayments.png";
 import PassiveIncome from "../images/earnpassiveincome.png";
 
 const Features = () => {
-  const cardStyles = {
-    width: "22.9rem",
-    height: "22.75rem",
-    background: "#1D1A27",
-    borderRadius: "10px",
-    marginBottom: "1rem",
-  };
-
   const featureStyles = {
     textAlign: "center",
     padding: "2% 5% 7%",
@@ -37,7 +29,6 @@ const Features = () => {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         <div className="col-sm-4">
           <FeatureCard
-            cardStyles={cardStyles}
             cardImg={RealTimeTrading}
             featureTitle="Real Time Trading"
             featureDesc="Buy, sell & trade NAYA on our amazing platform"
@@ -45,7 +36,6 @@ const Features = () => {
         </div>
         <div className="col-sm-4">
           <FeatureCard
-            cardStyles={cardStyles}
             cardImg={CustomizableNfts}
             featureTitle="Customizable NFTs"
             featureDesc="A hyper NFT marketplace where you can create, mint or customise your own NFTs directly "
@@ -53,7 +43,6 @@ const Features = () => {
         </div>
         <div className="col-sm-4">
           <FeatureCard
-            cardStyles={cardStyles}
             cardImg={CharitySupport}
             featureTitle="Charity Support"
             featureDesc="Donate directly to vetted charities and non-profits making a dfference on the African continent"
@@ -61,7 +50,6 @@ const Features = () => {
         </div>
         <div className="col-sm-4">
           <FeatureCard
-            cardStyles={cardStyles}
             cardImg={StartUpCrowdFunding}
             featureTitle="StartUp Crowdfunding"
             featureDesc="Want to get your idea funded? Use our amazing platform to get pre-seed funding from investors worldwide."
@@ -69,7 +57,6 @@ const Features = () => {
         </div>
         <div className="col-sm-4">
           <FeatureCard
-            cardStyles={cardStyles}
             cardImg={CreatorPayment}
             featureTitle="Creator Payment"
             featureDesc="Host live or virtual events, receive donations, tips and set ticket prices with the NAYA token on 
@@ -78,7 +65,6 @@ const Features = () => {
         </div>
         <div className="col-sm-4">
           <FeatureCard
-            cardStyles={cardStyles}
             cardImg={PassiveIncome}
             featureTitle="Earn Passive income"
             featureDesc="Earn passive income by completing ad tasks on Ad100.com and get paid in NAYA"

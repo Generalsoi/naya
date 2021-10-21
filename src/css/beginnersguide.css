@@ -11,7 +11,7 @@
     font-family: Helvetica;
     margin-bottom: 1.5rem;
     text-align: center ;
-}
+} 
 
 .beginnersGuideSupportHeading{
     font-size: 1rem;
@@ -27,4 +27,18 @@
 
 .beginnersGuideContentOne{
     width: 60%;
+}
+
+@media screen and (max-width: 600px) {
+    .beginnersguidesection{
+        padding: 5% 4$;
+    }
+
+    .beginnersGuideContentOne{
+        width: 100%;
+    }
+
+    .beginnersGuideContent{
+        margin-top: 5rem;
+    }
 }

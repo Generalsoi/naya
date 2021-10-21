@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "./button";
+import "../css/downloadinfo.css";
 
 const DownloadInfo = (props) => {
   const { downloadTitle, downloadbody } = props;
@@ -24,25 +25,10 @@ const DownloadInfo = (props) => {
     border: "1px solid #7353E5",
   };
 
-  const downloadTitleStyles = {
-    fontSize: "1.75rem",
-    fontWeight: "500",
-    fontFamily: "Helvetica",
-    letterSpacing: "0.2rem",
-  };
-
-  const downloadBodyStyles = {
-    fontSize: "1rem",
-    fontWeight: "400",
-    fontFamily: "Poppins, sans-serif",
-    opacity: "50%",
-    margin: "1rem 0 3rem",
-  };
-
   return (
-    <div>
-      <h4 style={downloadTitleStyles}>{downloadTitle}</h4>
-      <p style={downloadBodyStyles}>{downloadbody}</p>
+    <div className="downloadinfo">
+      <h4>{downloadTitle}</h4>
+      <p>{downloadbody}</p>
       <Button content="Download" buttonStyles={downloadStyles} />
       <Button content="Learn more" buttonStyles={learnMoreStyles} />
     </div>

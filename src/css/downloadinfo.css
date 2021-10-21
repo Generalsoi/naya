@@ -1,0 +1,26 @@
+.downloadinfo h4{
+    font-size: 1.75rem;
+    font-weight: 500;
+    font-family: Helvetica;
+    letter-spacing: 0.2rem;
+}
+
+.downloadinfo p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    opacity: 50%;
+    margin: 1rem 0 3rem;
+}
+
+@media screen and (max-width: 600px) {
+    .downloadinfo h4{
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    .downloadinfo p{
+        font-size: 0.9rem;
+        margin: 1rem 0 3rem;
+    }
+}
