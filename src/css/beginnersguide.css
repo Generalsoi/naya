@@ -1,0 +1,30 @@
+.beginnersguidesection{
+    padding: 2% 7%;
+    background: #261E35;
+    color: #fff;
+   
+}
+
+.beginnersGuideHeading{
+    font-size: 2.375rem;
+    font-weight: 500;
+    font-family: Helvetica;
+    margin-bottom: 1.5rem;
+    text-align: center ;
+}
+
+.beginnersGuideSupportHeading{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    opacity: 50%;
+    text-align: center ;
+}
+
+.beginnersGuideContent{
+    margin-top: 9rem;
+}
+
+.beginnersGuideContentOne{
+    width: 60%;
+}

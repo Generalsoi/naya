@@ -18,7 +18,7 @@ const Features = () => {
 
   const featureStyles = {
     textAlign: "center",
-    padding: "2% 5%",
+    padding: "2% 5% 7%",
     background: "#261E35",
     color: "#fff",
   };
