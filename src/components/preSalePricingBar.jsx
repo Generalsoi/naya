@@ -14,7 +14,7 @@ const PreSalePricingBar = () => {
     height: "5.508rem",
   };
   return (
-    <div className="d-lg-flex pre-sale-pricing-bar">
+    <div className="d-lg-flex pre-sale-pricing-bar justify-content-center align-items-center">
       <div className="p-2">
         <h4>Pre-sale Pricing</h4>
         <h6>1 NAYA = $0.2 USD</h6>
