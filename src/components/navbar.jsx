@@ -18,7 +18,12 @@ const Example = () => {
 
   const navLinkStyles = {
     color: "#fff",
-    fontSize: "21px"
+    fontSize: "18px"
+  };
+
+  const navLogoStyles = {
+    color: "#fff",
+    fontSize: "35px"
   };
 
   return (
@@ -30,7 +35,7 @@ const Example = () => {
       className="m-0"
     >
       <Navbar.Brand href="#home">
-        <a style={navLinkStyles} className="navbar-brand" href="https://nayatoken.com">
+        <a style={navLogoStyles} className="navbar-brand" href="https://nayatoken.com">
           <img src={Logo} alt="naya-logo" className="me-2" />
           NAYA
         </a>
