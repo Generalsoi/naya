@@ -27,7 +27,7 @@ const RoadMap = () => {
         <Button content="Buy NAYA" buttonStyles={buttonStyles} />
       </div>
 
-      <div className="row row-cols-1 row-cols-md-3 g-4">
+      <div className="row row-cols-1 row-cols-md-3 g-4 roadmap-content">
         <div className="col-sm-4">
           <RoadMapCard
             number="1"

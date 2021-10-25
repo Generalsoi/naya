@@ -18,6 +18,10 @@
     font-family: "Poppins", serif;
 }
 
+.pre-sale-progress-section img{
+    width: 100%;
+}
+
 .pre-sale-progress-section p{
     font-size: 1rem;
     font-weight: 400;

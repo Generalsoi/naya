@@ -39,3 +39,9 @@
         font-size: 2rem;
     }
 }
+
+@media screen and (min-width: 600px) {
+    .roadmap-content{
+        text-align: center;
+    }
+}

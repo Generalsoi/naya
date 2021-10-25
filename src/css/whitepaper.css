@@ -72,3 +72,40 @@
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width: 600px and max-width: 768px) {
+    .whitepaper {
+        padding: 3% 5%;
+    }
+
+    .whitepaper h4{
+        font-size: 3rem;
+        margin-bottom: 4rem;
+    }
+
+    .whitepaper-bar{
+        width: 100%;
+        background: #1D1A27;
+        border-radius: 30px;
+        padding: 4% 2% 2%;
+    }
+
+    .whitepaper .p-2{
+        text-align: center;
+    }
+
+    .whitepaper .p-2 img{
+        width: 60%;
+        height: 12rem;
+        margin: 2rem auto;
+    }
+
+    .whitepaper .p-2 p{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+    }
+
+    .whitepaper .p-2 h5{
+        font-size: 2rem;
+    }
+}
