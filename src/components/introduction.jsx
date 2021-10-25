@@ -1,6 +1,7 @@
 import React from "react";
 import ImageOne from "../images/image1.png";
 import ImageTwo from "../images/image2.png";
+import ImageThree from "../images/ellipse1.png";
 import Button from "../common/button";
 import "../css/introduction.css";
 
@@ -39,7 +40,7 @@ const Introduction = () => {
         src={ImageTwo}
         alt="sectionOneImageTwo"
       />
-    </div>
+      </div>
   );
 };
 

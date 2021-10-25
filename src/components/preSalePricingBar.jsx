@@ -13,6 +13,8 @@ const PreSalePricingBar = () => {
     width: "14.605rem",
     height: "5.508rem",
   };
+
+
   return (
     <div className="d-lg-flex pre-sale-pricing-bar justify-content-center align-items-center">
       <div className="p-2">
@@ -21,7 +23,7 @@ const PreSalePricingBar = () => {
       </div>
       <div className="p-2 timer">
         <h4>Pre-sale starts in</h4>
-        <h5>00 : 00 : 00 : 00</h5>
+        <h6>00 : 00 : 00 : 00</h6>
       </div>
       <div className="p-2">
         <Button content="Buy NAYA" buttonStyles={buttonStyles} />
