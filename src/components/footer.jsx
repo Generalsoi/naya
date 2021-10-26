@@ -48,19 +48,19 @@ const Footer = () => {
           <h4>Socials</h4>
           <ul>
             <li>
-              <a href="https://www.nayatoken.com">Telegram</a>
+              <a href=" https://t.me/NayatokenIG">Telegram</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Twitter</a>
+              <a href="https://twitter.com/NayaToken?t=fy0hj1s6hqX-85DkqqkKFQ&s=09">Twitter</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Instagram</a>
+              <a href="https://instagram.com/nayatoken?utm_medium=copy_link">Instagram</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Discord</a>
+              <a href="https://discord.gg/7kRjDd8E">Discord</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Blog Post</a>
+              <a href="https://nayatoken.medium.com">Blog Post</a>
             </li>
           </ul>
         </div>

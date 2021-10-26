@@ -20,19 +20,22 @@
 
 .p-2 h5{
     font-size: 1.75rem;
-    text-align: center;
     font-weight: 500;
-    font-family: Helvetica;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 4%;
 }
 
 .p-2 p{
     font-size: 1rem;
     font-family: 'Poppins', serif;
     font-weight: 400;
+    text-align: left;
+    padding-left: 4%;
 }
 
 .p-2 img{
-    width: 400px; 
+    width: 400px;
     height: 360px;
 }
 
@@ -47,9 +50,12 @@
     }
 
     .whitepaper-bar{
-        width: 100%;
-        background: #1D1A27;
+        height: 489px;
+        width: 1183px;
+        left: 133px;
+        top: 176px;
         border-radius: 30px;
+        background: #1D1A27;
         padding: 4% 2% 2%;
     }
 
@@ -58,9 +64,9 @@
     }
 
     .whitepaper .p-2 img{
-        width: 40%;
-        height: 7rem;
-        margin: 2rem auto;
+        width: 10%;
+        height: 4rem;
+        margin: 4rem auto;
     }
 
     .whitepaper .p-2 p{
@@ -95,8 +101,8 @@
     }
 
     .whitepaper .p-2 img{
-        width: 60%;
-        height: 12rem;
+        width: 10%;
+        height: 6rem;
         margin: 2rem auto;
     }
 
