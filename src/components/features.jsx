@@ -16,7 +16,7 @@ const Features = () => {
   };
 
   return (
-    <div style={featureStyles}>
+    <div style={featureStyles} id="features">
       <h3
         style={{
           fontSize: "2.375rem",
@@ -27,7 +27,7 @@ const Features = () => {
         Features
       </h3>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        <div className="col-sm-4">
+        <div className="col-sm-4" >
           <FeatureCard
             cardImg={RealTimeTrading}
             featureTitle="Real Time Trading"
@@ -59,7 +59,7 @@ const Features = () => {
           <FeatureCard
             cardImg={CreatorPayment}
             featureTitle="Creator Payment"
-            featureDesc="Host live or virtual events, receive donations, tips and set ticket prices with the NAYA token on 
+            featureDesc="Host live or virtual events, receive donations, tips and set ticket prices with the NAYA token on
             Raven Livestream"
           />
         </div>

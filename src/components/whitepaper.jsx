@@ -17,7 +17,7 @@ const WhitePaper = () => {
     marginTop: "4rem",
   };
   return (
-    <div className="whitepaper">
+    <div className="whitepaper" id="whitepaper">
       <h4>Whitepaper</h4>
       <div className="whitepaper-bar">
         <div className="d-lg-flex flex-row justify-content-between align-items-center">
@@ -27,7 +27,7 @@ const WhitePaper = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
               rhoncus eget iaculis vitae elementum, in sagittis, hac.{" "}
             </p>
-            <div style={{ textAlign: "center" }}>
+            <div style={{ textAlign: "left", marginLeft: "2rem" }}>
               <Button content="Read" buttonStyles={buttonStyles} />
             </div>
           </div>

@@ -43,22 +43,22 @@ const Example = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link style={navLinkStyles} href="#">
+          <Nav.Link style={navLinkStyles} href="#about">
             About
           </Nav.Link>
-          <Nav.Link style={navLinkStyles} href="#">
+          <Nav.Link style={navLinkStyles} href="#features">
             Features
           </Nav.Link>
-          <Nav.Link style={navLinkStyles} href="#">
+          <Nav.Link style={navLinkStyles} href="#beginners">
             Beginners guide
           </Nav.Link>
-          <Nav.Link style={navLinkStyles} href="#">
+          <Nav.Link style={navLinkStyles} href="#tokenomics">
             Tokenomics
           </Nav.Link>
-          <Nav.Link style={navLinkStyles} href="#">
+          <Nav.Link style={navLinkStyles} href="#roadmap">
             Roadmap
           </Nav.Link>
-          <Nav.Link style={navLinkStyles}> Whitepaper</Nav.Link>
+          <Nav.Link style={navLinkStyles} href="#whitepaper"> Whitepaper</Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link>

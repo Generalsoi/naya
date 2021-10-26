@@ -7,7 +7,7 @@ import "../css/beginnersguide.css";
 
 const BeginnersGuide = () => {
   return (
-    <div className="beginnersguidesection">
+    <div className="beginnersguidesection" id="beginners">
       <h3 className="beginnersGuideHeading">Beginners Guide</h3>
       <p className="beginnersGuideSupportHeading">
         Here are a few ways beginners who want to get the NAYA token can do so

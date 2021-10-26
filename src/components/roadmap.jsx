@@ -15,7 +15,7 @@ const RoadMap = () => {
   };
 
   return (
-    <div className="roadmap">
+    <div className="roadmap" id="roadmap">
       <h4>Our Roadmap</h4>
       <p className="roadmap-p">
         NAYA Token is a hyper crypto currency and the Binance smartchain. NAYA

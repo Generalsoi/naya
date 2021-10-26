@@ -5,7 +5,7 @@ import "../css/tokenomics.css";
 
 const Tokenomics = () => {
   return (
-    <div className="naya-tokenomics-section">
+    <div className="naya-tokenomics-section" id="tokenomics">
       <h3>NAYA Tokenomics</h3>
       <div className="d-lg-flex justify-content-between align-items-center">
         <div className=" text-center p-2 mr-auto">

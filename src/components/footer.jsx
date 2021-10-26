@@ -24,22 +24,19 @@ const Footer = () => {
               <a href="https://www.nayatoken.com">Home</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Features</a>
+              <a href="#features">Features</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Beginners guide</a>
+              <a href="#beginners">Beginners guide</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Roadmap</a>
+              <a href="#roadmap">Roadmap</a>
             </li>
             <li>
-              <a href="https://www.nayatoken.com">Whitepaper</a>
-            </li>
-            <li>
-              <a href="https://www.nayatoken.com">Pricing</a>
+              <a href="#whitepaper">Whitepaper</a>
             </li>
           </ul>
         </div>

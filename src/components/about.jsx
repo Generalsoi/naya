@@ -3,7 +3,7 @@ import "../css/about.css";
 
 const About = () => {
   return (
-    <section className="about-section">
+    <section className="about-section" id="about">
       <h3>About</h3>
       <p>
         NAYA Token is a hyper crypto currency and the Binance smartchain. NAYA
