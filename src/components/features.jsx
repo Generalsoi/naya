@@ -21,7 +21,7 @@ const Features = () => {
         style={{
           fontSize: "2.375rem",
           marginBottom: "4rem",
-          fontFamily: "Helvetica",
+          fontFamily: "poppins",
         }}
       >
         Features
@@ -31,14 +31,14 @@ const Features = () => {
           <FeatureCard
             cardImg={RealTimeTrading}
             featureTitle="Real Time Trading"
-            featureDesc="Buy, sell & trade NAYA on our amazing platform"
+            featureDesc="Buy, sell & trade NAYA on Pancakeswap and other Exchanges"
           />
         </div>
         <div className="col-sm-4">
           <FeatureCard
             cardImg={CustomizableNfts}
             featureTitle="Customizable NFTs"
-            featureDesc="A hyper NFT marketplace where you can create, mint or customise your own NFTs directly "
+            featureDesc="An NFT marketplace where you can create, mint and sell your own NFTs directly "
           />
         </div>
         <div className="col-sm-4">
@@ -51,7 +51,7 @@ const Features = () => {
         <div className="col-sm-4">
           <FeatureCard
             cardImg={StartUpCrowdFunding}
-            featureTitle="StartUp Crowdfunding"
+            featureTitle="Startup Crowdfunding"
             featureDesc="Want to get your idea funded? Use our amazing platform to get pre-seed funding from investors worldwide."
           />
         </div>
@@ -67,7 +67,7 @@ const Features = () => {
           <FeatureCard
             cardImg={PassiveIncome}
             featureTitle="Earn Passive income"
-            featureDesc="Earn passive income by completing ad tasks on Ad100.com and get paid in NAYA"
+            featureDesc="Get paid in NAYA for completing ad tasks on Ad100.xyz; Stake NAYA to earn more"
           />
         </div>
       </div>

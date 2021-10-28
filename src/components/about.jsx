@@ -6,7 +6,7 @@ const About = () => {
     <section className="about-section" id="about">
       <h3>About</h3>
       <p>
-        NAYA Token is a hyper crypto currency and the Binance smartchain. NAYA
+        NAYA Token is a hyper crypto currency built on the Binance Smart Chain. NAYA
         is the official digital currency for
         <span style={{ color: "#8A79FF" }}> Raven Livestream</span> and{" "}
         <span style={{ color: "#8A79FF" }}> Ad100.com. </span>

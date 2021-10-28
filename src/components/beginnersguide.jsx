@@ -17,7 +17,7 @@ const BeginnersGuide = () => {
         <div className="beginnersGuideContentOne">
           <DownloadInfo
             downloadTitle="Download the Trust Wallet App"
-            downloadbody="Trust Wallet is the official crypto wallet of Binance. You can send, receive and store cryptocurrencies and digital assets like NAYA safely. "
+            downloadbody="Trust Wallet is the Best Mobile Wallet for Binance Smart Chain wallet of Binance. You can send, receive and store cryptocurrencies and digital assets like NAYA safely. "
           />
         </div>
         <div>

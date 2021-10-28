@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import Logo from "../images/logo.png";
+import BuyNaya from "../images/buynaya.png";
 import "../css/navbar.css";
 
 import Button from "../common/button";
@@ -8,9 +9,9 @@ import Button from "../common/button";
 const Example = () => {
   const navBtnStyles = {
     color: "#fff",
-    fontSize: "1.1rem",
-    width: "10.563rem",
-    height: "2.831rem",
+    fontSize: "0.8rem",
+    width: "8.563rem",
+    height: "2.531rem",
     fontWeight: "200",
     borderRadius: "50px",
     border: "2px solid #fff",
@@ -18,12 +19,18 @@ const Example = () => {
 
   const navLinkStyles = {
     color: "#fff",
-    fontSize: "18px"
+    fontSize: "13px",
+  };
+
+  const navLinkyStyles = {
+    color: "#fff",
+    fontSize: "13px",
+    opacity: "0%",
   };
 
   const navLogoStyles = {
     color: "#fff",
-    fontSize: "35px"
+    fontSize: "20px"
   };
 
   return (
@@ -36,33 +43,44 @@ const Example = () => {
     >
       <Navbar.Brand href="#home">
         <a style={navLogoStyles} className="navbar-brand" href="https://nayatoken.com">
-          <img src={Logo} alt="naya-logo" className="me-2" />
-          NAYA
+          <img src={Logo} width={50} height={50} mode='fit' alt="naya-logo" className="me-2" />
+          NAYA TOKEN
         </a>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto">
           <Nav.Link style={navLinkStyles} href="#about">
-            About
+            About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Nav.Link>
           <Nav.Link style={navLinkStyles} href="#features">
-            Features
+              Features&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Nav.Link>
           <Nav.Link style={navLinkStyles} href="#beginners">
-            Beginners guide
+            Beginner's guide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Nav.Link>
           <Nav.Link style={navLinkStyles} href="#tokenomics">
-            Tokenomics
+            Tokenomics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Nav.Link>
           <Nav.Link style={navLinkStyles} href="#roadmap">
-            Roadmap
+            Roadmap&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </Nav.Link>
           <Nav.Link style={navLinkStyles} href="#whitepaper"> Whitepaper</Nav.Link>
+          <Nav.Link style={navLinkyStyles} opacity={1} href="#roadmap">
+            ap
+          </Nav.Link>
+          <Nav.Link style={navLinkyStyles} opacity={1} href="#roadmap">
+            ap
+          </Nav.Link>
+          <Nav.Link style={navLinkyStyles} opacity={1} href="#roadmap">
+            roadmap
+          </Nav.Link>
         </Nav>
         <Nav>
           <Nav.Link>
-            <Button content="Buy NAYA" buttonStyles={navBtnStyles} />
+            <a href="https://presale.nayatoken.com">
+              <img src={BuyNaya} width={169} height={50} mode='fit' alt="buy-naya" className="me-2" />
+            </a>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>

@@ -1,21 +1,23 @@
 import React from "react";
 import ImageOne from "../images/image1.png";
 import ImageTwo from "../images/image2.png";
-import ImageThree from "../images/ellipse1.png";
+import ImageThree from "../images/ellipse2.png";
+import ImageFour from "../images/ellipse3.png";
 import Button from "../common/button";
 import "../css/introduction.css";
 
 const Introduction = () => {
   const IntroBtnStyles = {
-    fontSize: "1.313rem",
-    width: "19.125rem",
-    height: "5.125rem",
-    borderRadius: "50px",
-    marginTop: "4.5rem",
+    fontSize: "21px",
+    width: "258px",
+    height: "69.14px",
+    borderRadius: "42.1569px",
+    marginTop: "45px",
     background: "linear-gradient(264.5deg, #632EA6 28.15%, #7353E5 77.79%)",
     border: "none",
     color: "#fff",
   };
+
   return (
     <div className="d-flex justify-content-between align-items-center section-one">
       <div>
@@ -28,7 +30,9 @@ const Introduction = () => {
           The digital currency powering the African creator
         </p>
         <p className="sectionOneSecondP">economy and charities.</p>
-        <Button content="Buy NAYA" buttonStyles={IntroBtnStyles} />
+        <a href="https://presale.nayatoken.com">
+        <Button content="Buy NAYA" buttonStyles={IntroBtnStyles}/>
+        </a>
       </div>
       <img
         src={ImageOne}
@@ -39,6 +43,16 @@ const Introduction = () => {
         className="section-one-image-two"
         src={ImageTwo}
         alt="sectionOneImageTwo"
+      />
+      <img
+        className="section-one-image-three"
+        src={ImageThree}
+        alt="sectionOneImageThree"
+      />
+      <img
+        className="section-one-image-four"
+        src={ImageFour}
+        alt="sectionOneImageFour"
       />
       </div>
   );
