@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/featurecard.css";
+import "../css/featureCard.css";
 
 const FeatureCard = (props) => {
   const { cardImg, featureTitle, featureDesc } = props;
