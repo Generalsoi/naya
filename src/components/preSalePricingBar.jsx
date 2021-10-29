@@ -14,7 +14,6 @@ const PreSalePricingBar = () => {
     height: "5.508rem",
   };
 
-
   return (
     <div className="d-lg-flex pre-sale-pricing-bar justify-content-center align-items-center">
       <div className="p-2">
@@ -26,7 +25,11 @@ const PreSalePricingBar = () => {
         <h6>00 : 00 : 00 : 00</h6>
       </div>
       <div className="p-2">
-        <Button content="Buy NAYA" buttonStyles={buttonStyles} />
+        <Button
+          content="Buy NAYA"
+          buttonStyles={buttonStyles}
+          onClick={() => window.open("https://presale.nayatoken.com", "_blank")}
+        />
       </div>
     </div>
   );

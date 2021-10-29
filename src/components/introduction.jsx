@@ -16,6 +16,7 @@ const Introduction = () => {
     background: "linear-gradient(264.5deg, #632EA6 28.15%, #7353E5 77.79%)",
     border: "none",
     color: "#fff",
+    cursor: "pointer",
   };
 
   return (
@@ -30,9 +31,11 @@ const Introduction = () => {
           The digital currency powering the African creator
         </p>
         <p className="sectionOneSecondP">economy and charities.</p>
-        <a href="https://presale.nayatoken.com">
-        <Button content="Buy NAYA" buttonStyles={IntroBtnStyles}/>
-        </a>
+        <Button
+          content="Buy NAYA"
+          buttonStyles={IntroBtnStyles}
+          onClick={() => window.open("https://presale.nayatoken.com", "_blank")}
+        />
       </div>
       <img
         src={ImageOne}
@@ -54,7 +57,7 @@ const Introduction = () => {
         src={ImageFour}
         alt="sectionOneImageFour"
       />
-      </div>
+    </div>
   );
 };
 

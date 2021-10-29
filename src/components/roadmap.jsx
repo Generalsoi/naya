@@ -24,7 +24,11 @@ const RoadMap = () => {
         <span style={{ color: "#8A79FF" }}> Ad100.com. </span>
       </p>
       <div className="roadmap-btn">
-        <Button content="Buy NAYA" buttonStyles={buttonStyles} />
+        <Button
+          content="Buy NAYA"
+          buttonStyles={buttonStyles}
+          onClick={window.open("https://presale.nayatoken.com", "_blank")}
+        />
       </div>
 
       <div className="row row-cols-1 row-cols-md-3 g-4 roadmap-content">
