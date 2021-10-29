@@ -17,6 +17,9 @@ const BeginnersGuide = () => {
         <div className="beginnersGuideContentOne">
           <DownloadInfo
             downloadTitle="Download the Trust Wallet App"
+            downloadLink={() =>
+              window.open("https://www.trustwallet.com", "_blank")
+            }
             downloadbody="Trust Wallet is the Best Mobile Wallet for Binance Smart Chain wallet of Binance. You can send, receive and store cryptocurrencies and digital assets like NAYA safely. "
           />
         </div>
@@ -32,6 +35,9 @@ const BeginnersGuide = () => {
         <div className="beginnersGuideContentOne">
           <DownloadInfo
             downloadTitle="Download the Metamask App"
+            downloadLink={() =>
+              window.open("https://www.metamask.io", "_blank")
+            }
             downloadbody="MetaMask is a cryptocurrency wallet that allows users to access their Ethereum wallet through a browser extension or mobile app, which can then be used to interact with decentralized applications "
           />
         </div>

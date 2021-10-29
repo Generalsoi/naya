@@ -3,7 +3,7 @@ import Button from "./button";
 import "../css/downloadinfo.css";
 
 const DownloadInfo = (props) => {
-  const { downloadTitle, downloadbody } = props;
+  const { downloadTitle, downloadbody, downloadLink } = props;
   const downloadStyles = {
     background: "linear-gradient(264.5deg, #632EA6 28.15%, #7353E5 77.79%)",
     color: "#fff",
@@ -29,7 +29,11 @@ const DownloadInfo = (props) => {
     <div className="downloadinfo">
       <h4>{downloadTitle}</h4>
       <p>{downloadbody}</p>
-      <Button content="Download" buttonStyles={downloadStyles} />
+      <Button
+        content="Download"
+        buttonStyles={downloadStyles}
+        onClick={downloadLink}
+      />
       <Button content="Learn more" buttonStyles={learnMoreStyles} />
     </div>
   );
